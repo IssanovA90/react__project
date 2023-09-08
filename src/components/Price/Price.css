@@ -1,0 +1,40 @@
+.price__img {
+    width: 526px;
+    height: 396px;
+    border-radius: 10px;
+    background-image: url(/public/img/7.png);
+}
+
+.price {
+    display: flex;
+    width: 1076px;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: 'El Messiri', sans-serif;
+    gap: 134px;
+}
+
+.price__content {
+    display: flex;
+    width: 416px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.price__content__one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 31px;
+    
+    
+    gap: 20px;
+}
+
+.price__total {
+    margin-bottom: 31px;
+}
