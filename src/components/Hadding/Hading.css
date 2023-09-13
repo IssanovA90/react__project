@@ -1,0 +1,27 @@
+.left {
+    width: 28px;
+    height: 14px;
+    flex-shrink: 0;
+    border-radius: 0px 50px;
+    background: var(--accent, #018ABE);
+}
+
+.right {
+    border-radius: 50px 0px;
+    background: var(--accent, #018ABE);
+}
+
+.block__ritmstyle {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: El Messiri;
+    line-height: 140%;
+    margin-top: 150px;
+    color: white;
+}

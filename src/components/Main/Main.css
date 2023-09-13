@@ -15,7 +15,18 @@
 .main__title {
     font-size: 64px;
 }
+.left {
+    width: 28px;
+    height: 14px;
+    flex-shrink: 0;
+    border-radius: 0px 50px;
+    background: var(--accent, #018ABE);
+}
 
+.right {
+    border-radius: 50px 0px;
+    background: var(--accent, #018ABE);
+}
 .subtitle_content {
     font-size: 24px;
     font-style: normal;
@@ -33,18 +44,7 @@
     font-family: 'El Messiri', sans-serif;
 }
 
-.left {
-    width: 28px;
-    height: 14px;
-    flex-shrink: 0;
-    border-radius: 0px 50px;
-    background: var(--accent, #018ABE);
-}
 
-.right {
-    border-radius: 50px 0px;
-    background: var(--accent, #018ABE);
-}
 
 .main__subtitle {
     margin-top: 136px;
@@ -54,17 +54,3 @@
     align-items: center;
 }
 
-.block__Ritmstyle {
-    width: 500px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    justify-content: space-between;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 700;
-    font-family: El Messiri;
-    line-height: 140%;
-    margin-top: 150px;
-    color: white;
-}

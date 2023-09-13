@@ -1,14 +1,17 @@
 import React from 'react';
 import "./Main.css"
 import Grid from '../Grid/Grid';
-import Slider from '../Slider/Slider';
-import Navigate from '../Navigate/Navigate';
+import SimpleCarousel from '../Slider/Slider';
 import RitmStyle from '../RitmStyle/RitmStyle';
 import Price from '../Price/Price';
+import Hading from '../Hadding/Hading';
+
+
+
 
 const Main = () => {
   const { main__block, main__subtitle, left, subtitle_content, right, main__title,
-    title_content, block__Ritmstyle } = styles;
+    title_content } = styles;
   return (
     <main>
       <section>
@@ -24,32 +27,15 @@ const Main = () => {
         </div>
       </section>
       <section>
-        <div className={block__Ritmstyle}>
-          <div className={`${left}`}></div>
-          <p>Сеансы RitmStyle</p>
-          <div className={`${left} ${right}`}></div>
-        </div>
+        <Hading>Сеансы RitmStyle</Hading>
         <Grid />
-        <div className={block__Ritmstyle}>
-          <div className={`${left}`}></div>
-          <p>Отзывы</p>
-          <div className={`${left} ${right}`}></div>
-        </div>
+        <Hading>Отзывы</Hading>
       </section>
       <section>
-        <Slider />
-        <Navigate />
-        <div className={block__Ritmstyle}>
-          <div className={`${left}`}></div>
-          <p>Об RitmStyle</p>
-          <div className={`${left} ${right}`}></div>
-        </div>
+        <SimpleCarousel />
+        <Hading>Об RitmStyle</Hading>
         <RitmStyle />
-        <div className={block__Ritmstyle}>
-          <div className={`${left}`}></div>
-          <p>Стоимость сеансов</p>
-          <div className={`${left} ${right}`}></div>
-        </div>
+        <Hading>Стоимость сеансов</Hading>
         <Price />
       </section>
     </main>
